@@ -19,3 +19,4 @@ mesh = SubResource("BoxMesh_edfer")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 0.962199, 0.272347, 0, -0.272347, 0.962199, 0, 1.64933, 0)
+shadow_enabled = true
