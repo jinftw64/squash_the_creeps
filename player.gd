@@ -29,4 +29,7 @@ func _physics_process(delta):
 	# vertical velocity
 	if not is_on_floor():
 		target_velocity.y = target_velocity.y - (fall_acceleration * delta)
-		# TODO: continue coding here
+
+	# moving the character
+	velocity = target_velocity
+	move_and_slide()
