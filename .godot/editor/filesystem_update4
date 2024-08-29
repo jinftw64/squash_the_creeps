@@ -1,6 +1,5 @@
-res://main.gd
 res://main.tscn
 res://player.tscn
 res://mob.tscn
-res://mob.gd
 res://player.gd
+res://main.gd
